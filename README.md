@@ -4,7 +4,7 @@
 
 ## Introduction
 
-For this project, I aimed to establish a secure network within Azure and effectively manage vulnerabilities. It invlived deploying an OpenVAS Vulnerability Management Scanner VM and creating a purposely vulnerable Windows 10 VM. Vulnerability scans were performed using OpenVAS, and the results were analyzed to understad the impact of different scanning methods. Identified vulnerabilities were remediated, and realistic scenarios were simulated to evaluate the effectiveness of remediation efforts. 
+For this project, I aimed to establish a secure network within Azure and effectively manage vulnerabilities. It involved deploying an OpenVAS Vulnerability Management Scanner VM and creating a purposely vulnerable Windows 10 VM. Vulnerability scans were performed using OpenVAS, and the results were analyzed to understad the impact of different scanning methods. Identified vulnerabilities were remediated, and realistic scenarios were simulated to evaluate the effectiveness of remediation efforts. 
 
 
 ## Technologies, Regulations, and Azure Components
