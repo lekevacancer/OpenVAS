@@ -27,11 +27,13 @@ For this project, I aimed to establish a secure network within Azure and effecti
 
   
 ## Unathenticated Scan of Vulnerable VM
-![Unathenticated Scan](https://i.imgur.com/Nibkx9t.png)
+![Unauthenticated scan](https://i.imgur.com/Nibkx9t.png)
+![Unathenticated Scan](https://i.imgur.com/RrwniOz.png)
 Prior to Implementing Hardening Measures and Security Controls:
 
-At the "BEFORE" stage of the project, the resources were deliberately set up with vulnerable applications. This intentionally insecure  applications aimed to allow the scanner to identify vulnerablities within the system. The Windoes Virtual Machine had its firewall disabled and vulnerable out of date applications such as Adobe, Mozilla Firefox, and VLC playerboth was installed on the system. 
+At the "BEFORE" stage of the project, the resources were deliberately set up with vulnerable applications. These intentionally insecure applications aimed to allow the scanner to perform an unathenticated scan to identify vulnerablities within the system. The Windows Virtual Machine had its firewall disabled and vulnerable out of date applications such as Adobe, Mozilla Firefox, and VLC playerboth installed. 
 
+```Unathenticated scans provide an overview of the vulnerabilities that can be identified without accessing the internal compnents of the target system. It helps to identify vulnerabilities that can be detected externally and helps assess the overall security posture of the system from an outsiders perspective. Note, this type of scan cannot uncover vulnerabilities that require authenticated access```
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/ch1cAMU.png)
