@@ -17,14 +17,17 @@ For this project, I aimed to establish a secure network within Azure and effecti
   
 ## Methodology
 
-- Creating the Honeynet: Initially, I deployed multiple virtual machines with known vulnerabilities in Azure, creating a simulated insecure environment.
-- Monitoring and Analysis: Next, I configured Azure to collect logs from various sources and consolidated them in the Log Analystics Workspace. Using Microsoft Sentinel, I built attack maps, setup alert triggers, and created incidents based on the gathered data.
-- Measurement of Secuirty Metrics: During the insecure state of the environment, I monitored and recorded key security metrics for a 24-hour period. This established a baseline for comparision once remediation measures were implemented.
-- Incident Response and Remediation: After addressing the identified incidents and vulnerabilities, I proceeded to stregthen the environment by implementing security best practices and following Azure-specific recommendations.
-- Analysis After Remediation: Fianlly, in order to evaluate the effectiveness of the implemented measures, I observed the environment for an additional 24-hour period, measuring security metrics once again and compared them against the intial baseline.
+- Setting up a secure Azure network: Establishing a secure network environment within the Azure platform.
+- Utilizing an OpenVAS Vulnerability Management Scanner VM: Deploying and utilizing the OpenVAS scanner for vulnerability management purposes.
+- Developing a vulnerable Windows 10 VM: Creating a purposely vulnerable Windows 10 virtual machine with outdated software and disabled security controls.
+- Performing vulnerability scans: Conducting both unauthenticated and credentialed vulnerability scans using OpenVAS to identify potential security weaknesses.
+- Analyzing scan results: Analyzing the scan results to gain insights into the vulnerabilities detected and understanding the differences between unauthenticated and credentialed scans.
+- Remediation of identified vulnerabilities: Addressing and resolving the identified vulnerabilities based on the scan results.
+- Simulating realistic vulnerability remediation scenarios: Creating a list of remediable vulnerabilities to simulate practical scenarios and evaluate the effectiveness of vulnerability remediation efforts.
+
   
-## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/1tLjWY9.png)
+## Unathenticated Scan of Vulnerable VM
+![Unathenticated Scan](https://i.imgur.com/Nibkx9t.png)
 Prior to Implementing Hardening Measures and Security Controls:
 
 At the "BEFORE" stage of the project, the resources were deliberately set up with public exposure to the internet. This intentionally insecure configuration aimed to attract potential cyber attackers and monitor their techniques. The Virtual Machines had both their Network Security Groups (NSGs) and built-in firewalls configured with wide-open rules, granting unrestricted access from any source. Furthermore, all other resources, including storage accounts and databases, were deployed with public endpoints that were visible to the internet, without utilizing private endpoints for enhanced security.
