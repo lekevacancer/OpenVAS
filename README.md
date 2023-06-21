@@ -10,7 +10,7 @@ For this project, I aimed to establish a secure network within Azure and effecti
 ## Technologies, Regulations, and Azure Components
 
 - Azure
-- Virtual Machines ((1) Windows (vulnerable-VM), (1) Linux utilizing OpenVAS)
+- Virtual Machines ((1) Windows 10 (vulnerable-VM), (1) Linux utilizing OpenVAS)
 - WIndows Remote Desktop for Remote Access
 - PowerShell(Windows OS) or Terminal(MacOS)
 
@@ -30,7 +30,7 @@ For this project, I aimed to establish a secure network within Azure and effecti
 ![Unathenticated Scan](https://i.imgur.com/Nibkx9t.png)
 Prior to Implementing Hardening Measures and Security Controls:
 
-At the "BEFORE" stage of the project, the resources were deliberately set up with public exposure to the internet. This intentionally insecure configuration aimed to attract potential cyber attackers and monitor their techniques. The Virtual Machines had both their Network Security Groups (NSGs) and built-in firewalls configured with wide-open rules, granting unrestricted access from any source. Furthermore, all other resources, including storage accounts and databases, were deployed with public endpoints that were visible to the internet, without utilizing private endpoints for enhanced security.
+At the "BEFORE" stage of the project, the resources were deliberately set up with vulnerable applications. This intentionally insecure  applications aimed to allow the scanner to identify vulnerablities within the system. The Windoes Virtual Machine had its firewall disabled and vulnerable out of date applications such as Adobe, Mozilla Firefox, and VLC playerboth was installed on the system. 
 
 
 ## Architecture After Hardening / Security Controls
