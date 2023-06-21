@@ -1,31 +1,19 @@
 # Vulnerability Management Lab
 
 ![Vuknerability Management](https://i.imgur.com/sGOOt8J.jpg)
+
 ## Introduction
 
-For this project, I built a mini honeynet in Azure to simulate real-world cyber attacks. I ingested log sources from various resources into a Log Analytics workspace, which was then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, applied some security controls to harden the environment, measured metrics for another 24 hours, then showed the results below. The metrics I followed are:
+For this project, I aimed to establish a secure network within Azure and effectively manage vulnerabilities. It invlived deploying an OpenVAS Vulnerability Management Scanner VM and creating a purposely vulnerable Windows 10 VM. Vulnerability scans were performed using OpenVAS, and the results were analyzed to understad the impact of different scanning methods. Identified vulnerabilities were remediated, and realistic scenarios were simulated to evaluate the effectiveness of remediation efforts. 
 
-- SecurityEvent (Windows Event Logs)
-- Syslog (Linux Event Logs)
-- SecurityAlert (Log Analytics Alerts Triggered)
-- SecurityIncident (Incidents created by Sentinel)
-- AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Technologies, Regulations, and Azure Components
 
-- Azure Virtual Network(VNet)
-- Azure Network Security Group(NSG)
-- Virtual Machines ((2) Windows (Attacker VM, Vulnerable VM), (1) Linux)
-- Log Analytics Workspace with Kusto Query Language (KQL) Queries
-- Azure Jey Vault for Secure Secrets Managemt
-- Azure Storeage Account for Data Storage
-- Microsoft Sentinel for Security Information and Event Management(SIEM)
-- Microsoft Defender for Cloud to Protect Cloud Resources
+- Azure
+- Virtual Machines ((1) Windows (vulnerable-VM), (1) Linux utilizing OpenVAS)
 - WIndows Remote Desktop for Remote Access
-- Command Line Interface(CLI) for System Management
-- Posershell for Automation and COnfiguration Management
-- [NIST SP 800-53 Revision 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final) for Security Control
-- [NIST SP 800-61 Revision 2](https://www.nist.gov/privacy-framework/nist-sp-800-61) for Incident Handling Guidance
+- PowerShell(Windows OS) or Terminal(MacOS)
+
   
 ## Methodology
 
