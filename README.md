@@ -35,8 +35,11 @@ At the "BEFORE" stage of the project, the resources were deliberately set up wit
 
 ```Unathenticated scans provide an overview of the vulnerabilities that can be identified without accessing the internal compnents of the target system. It helps to identify vulnerabilities that can be detected externally and helps assess the overall security posture of the system from an outsiders perspective. Note, this type of scan cannot uncover vulnerabilities that require authenticated access```
 
-## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/ch1cAMU.png)
+```In the above image, notice that the out-of-date software does not show up in the report. That is due to the fact that the scanner did not do an authenticated scan, the scan was not able to deep dive into the system and scan all files and registries```
+
+## Authenticated(credentialed) Scan of Vulnerable VM
+![Credentialed scan](https://i.imgur.com/gv3WadH.png)
+![Credentialed scan](https://i.imgur.com/UNJ6gkR.png)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
