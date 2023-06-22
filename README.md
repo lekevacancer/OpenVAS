@@ -76,4 +76,4 @@ The vulnerabilities were remediated by updating the software.
 Through this project, the aim was to gain hands-on experience in vulnerability management by setting up a secure Azure network, conducting vulnerability scans, analyzing results, and successfully remediating identified vulnerabilities. This approach helps in understanding the importance of regular vulnerability assessments and maintaining robust security measures.
 
 
-## Steps for how to conduct this project:
+### [Steps for how to conduct this project](https://github.com/lekevacancer/OpenVAS-Vulnerability-Management-Lab-Steps/blob/main/README.md)
