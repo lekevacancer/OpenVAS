@@ -51,41 +51,6 @@ In the "AFTER" stage, I conducted a credentialed scan that took a deep dive into
 
 
 
-
-## Metrics Before Hardening / Security Controls
-
-The following table shows the metrics I measured in my insecure environment for 24 hours:
-Start Time 2023-06-16 5:17:32 AM
-Stop Time 2023-06-17 5:17:32 AM
-
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 139088
-| Syslog                   | 6035
-| SecurityAlert            | 10
-| SecurityIncident         | 341
-| AzureNetworkAnalytics_CL | 2526
-
-## Attack Maps Before Hardening / Security Controls
-
-```All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.```
-
-## Metrics After Hardening / Security Controls
-
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-06-17 11:15:31 AM
-Stop Time	2023-06-18 11:15:31 AM
-
-| Metric                   | Count
-| ------------------------ | -----
-| SecurityEvent            | 12546
-| Syslog                   | 25
-| SecurityAlert            | 0
-| SecurityIncident         | 0
-| AzureNetworkAnalytics_CL | 0
-
 ## Conclusion
 
-For this project, a mini honeynet was constructed in Microsoft Azure, and log sources were integrated into a Log Analytics workspace. Microsoft Sentinel was utilized to activate alerts and generate incidents based on the collected logs. Furthermore, security metrics were assessed in the insecure environment prior to implementing security controls, and then once again after the implementation of these measures. It is important to highlight that the number of security events and incidents significantly decreased after the security controls were implemented, providing evidence of their effectiveness.
-
-It is worth mentioning that if the network resources were extenzively used by regular users, it is probable that more security events and alerts could have been generated within the 24-hour period following the implementation of the security controls.
+For this project, the overarching objective was to enhance the understanding of vulnerability management, demonstrate proficiency in utiliing security tools liek OpenVAS, and develop skills in identifying, analyzing, and remediating vulnerabilities within a secure network environment.
