@@ -1,4 +1,4 @@
-# OpenVAS Vulnerability Management Lab
+# OpenVAS Vulnerability Management 
 
 ![Vuknerability Management](https://i.imgur.com/sGOOt8J.jpg)
 
