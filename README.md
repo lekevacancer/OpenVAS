@@ -17,13 +17,28 @@ For this project, I aimed to establish a secure network within Azure and effecti
   
 ## Methodology
 
-- Setting up a secure Azure network: Establishing a secure network environment within the Azure platform.
-- Utilizing an OpenVAS Vulnerability Management Scanner VM: Deploying and utilizing the OpenVAS scanner for vulnerability management purposes.
-- Developing a vulnerable Windows 10 VM: Creating a purposely vulnerable Windows 10 virtual machine with outdated software and disabled security controls.
-- Performing vulnerability scans: Conducting both unauthenticated and credentialed vulnerability scans using OpenVAS to identify potential security weaknesses.
-- Analyzing scan results: Analyzing the scan results to gain insights into the vulnerabilities detected and understanding the differences between unauthenticated and credentialed scans.
-- Remediation of identified vulnerabilities: Addressing and resolving the identified vulnerabilities based on the scan results.
-- Simulating realistic vulnerability remediation scenarios: Creating a list of remediable vulnerabilities to simulate practical scenarios and evaluate the effectiveness of vulnerability remediation efforts.
+- Configuration of a Secure Azure Network:
+    - Implemented a secure Azure network environment.
+    - Deployed an OpenVAS Vulnerability Management Scanner VM within the network.
+
+- Creation of a Vulnerable Windows 10 VM:
+   - Developed a specialized Windows 10 VM with intentionally outdated software and disabled security controls.
+   
+- Vulnerability Scanning:
+   - Conducted unauthenticated vulnerability scans using OpenVAS.
+   - Performed credentialed vulnerability scans to gain enhanced insight.
+   
+- Analysis of Scan Results:
+   - Analyzed the scan results to identify vulnerabilities.
+   - Highlighted the differences between unauthenticated and credentialed scans.
+   
+- Vulnerability Remediation:
+   - Addressed and remediated the identified vulnerabilities.
+   - Validated the effectiveness of the remediation efforts through subsequent scans.
+   
+- Simulation of Realistic Vulnerability Remediation Scenarios:
+   - Curated a list of remediable vulnerabilities to simulate practical vulnerability remediation scenarios.
+
 
   
 ## Unathenticated Scan of Vulnerable VM
@@ -58,4 +73,7 @@ The vulnerabilities were remediated by updating the software.
 
 ## Conclusion
 
-For this project, the overarching objective was to enhance the understanding of vulnerability management, demonstrate proficiency in utiliing security tools liek OpenVAS, and develop skills in identifying, analyzing, and remediating vulnerabilities within a secure network environment.
+Through this project, the aim was to gain hands-on experience in vulnerability management by setting up a secure Azure network, conducting vulnerability scans, analyzing results, and successfully remediating identified vulnerabilities. This approach helps in understanding the importance of regular vulnerability assessments and maintaining robust security measures.
+
+
+## Steps for how to conduct this project:
