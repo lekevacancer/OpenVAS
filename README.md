@@ -48,6 +48,11 @@ In the "AFTER" stage, I conducted a credentialed scan that took a deep dive into
 
 ```Credentialed scanning is a process of conducting vulnerability scans with authenticated access to the target system by user providing valid credentials such as usernames and passwords to the scanning tool. The scanner can then deep dive into the systems internal components and configurations such as accessing system files, evaluate patch levels, assess user permissions,and discover hidden vulnerabilities allowing for a more thorough assessment of vulnerabilities```
 
+## Authenticated(credentialed) Re-Scan of Remediated Vulnerabilities
+![Credentialed re-scan](https://i.imgur.com/mm2tYr0.png)
+![Credentialed re-scan](https://i.imgur.com/GKxZ8e3.png)
+
+The vulnerabilities were remediated by updating the software.
 
 
 
